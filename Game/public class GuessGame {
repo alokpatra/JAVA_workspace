@@ -1,0 +1,12 @@
+public class GuessGame {
+Player p1;
+Player p2;
+Player p3;
+public
+p1 =
+p2 =
+p3 =
+void startGame() {
+new Player();
+new Player();
+new Player();

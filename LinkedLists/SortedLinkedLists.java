@@ -1,0 +1,17 @@
+public  void insert(long key)
+{
+	Link newLink = new Link(key);
+	Link previous = null;
+	Link current = first;
+	
+	while(current!=null && key>current.dData)
+	{
+		previous = current;
+		current = current.next;
+	}
+	if (previous = null)
+		first = newLink;
+	else 
+		previous.next = newLink;
+	newLink.next = current;
+}
